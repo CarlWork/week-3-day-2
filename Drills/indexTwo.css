@@ -1,0 +1,33 @@
+body{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#header{
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    height: 17vw;
+    width: 90vw;
+    margin: 30px;
+}
+
+#main{
+    border-style: dotted;
+    border-color: black;
+    border-width: 3px;
+    height: 18vw;
+    width: 90vw;
+    margin: 30px;
+}
+
+#footer{
+    border-style: outset;
+    border-color: black;
+    border-width: 1px;
+    height: 30vw;
+    width: 50vw;
+    margin: auto;
+}
+

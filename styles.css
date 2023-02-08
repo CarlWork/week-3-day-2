@@ -1,0 +1,42 @@
+.body{
+    background-color: lightgoldenrodyellow;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 15px;
+    display:inline-block;
+    justify-content:center;
+    flex
+}
+
+.red{
+    background-color: red;
+
+}
+
+#first{
+    position:relative;
+    z-index: 3;
+    left: 69px;
+    top: 69px;
+}
+
+#second{
+    position:relative;
+    z-index: 2;
+}
+
+#container{
+    background-color: aquamarine;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#third{
+    position: sticky;
+}
